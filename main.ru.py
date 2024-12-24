@@ -60,3 +60,15 @@
 #
 # # Дизассемблирование функции
 # dis.dis(example_function)
+# работа с фалами и дирректориями
+
+# import os
+#
+# print(os.listdir())
+# print(os.getcwd())
+# if os.path.exists('module8'):
+#     os.chdir('module8')
+# else:
+#     os.mkdir('module8')
+#     os.chdir('module8')
+# print(os.getcwd())
