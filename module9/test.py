@@ -10,11 +10,12 @@ list_1 = [1, 2, 3, 4, 5]
 list_2 = [5, 6, 7, 8, 9]
 
 ran = range(10, 20)
-zp = zip(list_1, list_2)
-mp = map(str, list_1)
+zp = zip(list_1, list_2) # создвние кортежа из двух списков
+mp = map(str, list_1)   # какую функцию к чему берем
+
 
 print(ran, mp, zp)
 
 print(list(ran))
-print(list(zp)) # создвние кортежа из двух списков
-print(list(mp)) 
+print(list(zp))
+print(list(mp))
