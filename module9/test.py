@@ -19,3 +19,14 @@ print(ran, mp, zp)
 print(list(ran))
 print(list(zp))
 print(list(mp))
+
+def fibonachi(n):
+    res = []
+    a, b = 0, 1
+    for i in range(n):
+        res.append(a)
+        a, b = b, a + b
+    return res
+for value in fibonachi(15):
+
+    print(value, end=' ')
